@@ -39,6 +39,15 @@ serve -s dist
 ```
 npm install vue@next
 
+npm install -g pnpm
+
+npm install -g yarn
+npm upgrade -g yarn
+yarn version check
+
+npm install -g bun
+bun upgrade
+
 npm create vue@latest
 pnpm create vue@latest
 yarn create vue@latest
@@ -46,12 +55,14 @@ bun create vue@latest
 
 cd <your-project-name>
 npm install
+npm run format
 npm run dev
 npm run build
 
 pnpm install
-pnpm run dev
-pnpm run build
+pnpm format
+pnpm dev
+pnpm build
 
 yarn
 yarn dev
