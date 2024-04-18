@@ -106,6 +106,11 @@ npm run serve
 ### Vite
 
 ```
+npm create vite@latest
+pnpm create vite
+yarn create vite
+bun create vite
+
 npm init vite
 npm init vite-app <project-name>
 # OR
